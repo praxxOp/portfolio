@@ -1,0 +1,25 @@
+@font-face {
+  font-family: medium;
+  src: url("../../fonts/Medium.otf");
+}
+
+.main__navbar {
+  height: 50vh;
+  width: 100%;
+}
+
+.navbar__heading {
+  font-family: medium;
+  height: 80%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar__heading h1 {
+  font-size: 9vw;
+  font-weight: 999;
+  color: #853d3d;
+}
