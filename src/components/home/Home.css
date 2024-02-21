@@ -1,0 +1,44 @@
+.main__home {
+  min-height: 60vh;
+  width: 100%;
+  display: flex;
+  color: #7e7f7b;
+}
+
+.home__left {
+  width: 50%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.home__circle__group {
+  display: flex;
+  padding-left: 6vw;
+  width: 100%;
+  height: 11%;
+  position: relative;
+}
+
+.home__circle {
+  width: 5vh;
+  height: 5vh;
+  border-radius: 50%;
+  background-color: #7e7f7b;
+  position: absolute;
+}
+.circle__group__heading {
+  padding-left: 1.5vw;
+  width: 100%;
+  height: 11%;
+  font-family: medium;
+  font-size: 1vw;
+  color: #141511;
+}
+
+.main__home p {
+  width: 30vw;
+  height: 30vh;
+  font-size: 0.8vw;
+}
