@@ -6,7 +6,10 @@
   font-family: medium;
   src: url("./fonts/Medium.otf");
 }
-
+@font-face {
+  font-family: abc;
+  src: url(./fonts/abcfavorit-book.ttf);
+}
 * {
   margin: 0%;
   padding: 0%;

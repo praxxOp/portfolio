@@ -36,9 +36,17 @@
   font-size: 1vw;
   color: #141511;
 }
-
+.home__right{
+  width: 50%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+ padding-top: 20px;
+}
 .main__home p {
   width: 30vw;
   height: 30vh;
-  font-size: 0.8vw;
+  font-size: 0.85vw;
+  font-family: abc;
 }
+

@@ -46,12 +46,20 @@ const Home = () => {
             <h6>IMPROVING EVERYDAY</h6>
           </div>
         </div>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis
-          ipsam eum eos veritatis rerum labore quaerat odit ullam corporis
-          libero optio dolore ex, similique veniam quas molestias non quisquam
-          id!
-        </p>
+        <div className="home__right">
+          <p>
+            As a Front-End Developer, I sculpt seamless digital experiences,
+            blending creativity with code to bring designs to life. Crafting
+            user-friendly interfaces is my passion, and I thrive on transforming
+            concepts into interactive and visually stunning realities.
+          </p>
+          <p>
+            As a perpetual learner, I constantly embrace new challenges and stay
+            updated on emerging trends. Armed with expertise in front-end
+            development, I also delve into blockchain and future technologies,
+            ensuring I'm well-prepared for the dynamic digital landscape.
+          </p>
+        </div>
       </div>
     </>
   );
