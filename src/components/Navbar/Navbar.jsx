@@ -28,7 +28,7 @@ const Navbar = () => {
           <h6>PRATHAMESH</h6>
         </div>
         <div className="Navbar__content">
-          <h4>SKILLS</h4>
+          <h4>ABOUT</h4>
           <h4>PROJECTS</h4>
           <h4>CONTACT</h4>
         </div>

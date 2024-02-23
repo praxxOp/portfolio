@@ -26,7 +26,7 @@
   font-family: medium;
   margin-top: 10px;
   font-size: 0.6vw;
-  color: #141511;
+  color: #ff0404;
   letter-spacing: 4.2vw;
 }
 
@@ -44,4 +44,10 @@
 
 .Navbar__content h4 {
   letter-spacing: 0.15vw;
+}
+
+.Navbar__content h4:hover {
+  color: #e63323;
+  transition: color 0.2s ease-in-out;
+  cursor: pointer;
 }

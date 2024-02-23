@@ -1,0 +1,29 @@
+.skillsection {
+  width: 100%;
+  height: 6vh;
+  background-color: #141511;
+  position: fixed;
+  bottom: 0%;
+  border-radius: 10px 10px 0 0;
+  z-index: 999;
+}
+.skillsection__heading {
+  width: 100%;
+  height: 6vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.skillsection__heading h5 {
+  font-family: medium;
+  font-size: 0.75vw;
+  color: rgb(253, 249, 249);
+  letter-spacing: 2.5px;
+  cursor: pointer;
+}
+
+.skillsection__content {
+  height: 64vh;
+  width: 100%;
+}

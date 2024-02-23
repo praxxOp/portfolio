@@ -12,12 +12,15 @@
   flex-direction: column;
   justify-content: flex-end;
 }
-
+.circle__content {
+  width: 100%;
+  height: 10vw;
+}
 .home__circle__group {
   display: flex;
   padding-left: 6vw;
   width: 100%;
-  height: 11%;
+  height: 28%;
   position: relative;
 }
 
@@ -31,17 +34,19 @@
 .circle__group__heading {
   padding-left: 1.5vw;
   width: 100%;
-  height: 11%;
+  height: 15%;
   font-family: medium;
   font-size: 1vw;
-  color: #141511;
+  color: #ff0404;
+  
 }
-.home__right{
+.home__right {
   width: 50%;
   min-height: 100%;
   display: flex;
   flex-direction: column;
- padding-top: 20px;
+  padding-top: 20px;
+  
 }
 .main__home p {
   width: 30vw;
