@@ -3,11 +3,16 @@
     width: 100%;    
     border-radius: 30px;  
     padding-left: 20px;  
-    padding-top: 20px ;
+    padding-top: 6vw ;
+   
 }
 
 
 .main__project h1{
     font-family: asik;
     letter-spacing: 2px;
+    font-size: 5vw;
+}
+.main__project h1 span{
+    color: rgb(132, 0, 255);
 }

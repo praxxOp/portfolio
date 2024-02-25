@@ -1,4 +1,75 @@
-.main__project__page{
-    height: 100vh;
-    width: 100%;
+.main__project__page {
+  height: 170vh;
+  width: 100%;
+  display: flex;
+  padding-top: 15vw;
+  justify-content: center;
+  position: relative;
+}
+
+.main__project__page img {
+  width: 90%;
+  height: 73%;
+  border-radius: 20px;
+  z-index: 9;
+  transition: 0.5s linear;
+  -webkit-box-shadow: -2px 0px 33px -4px rgba(92, 87, 92, 1);
+  -moz-box-shadow: -2px 0px 33px -4px rgba(92, 87, 92, 1);
+  box-shadow: -2px 0px 33px -4px rgba(92, 87, 92, 1);
+  cursor: pointer;
+}
+.main__project__page img:hover {
+  scale: 1.02;
+  transition: scale 0.5s linear;
+}
+.description__section {
+  position: absolute;
+  width: 25vw;
+  height: 40vh;
+  right: 3%;
+  display: flex;
+  padding-left: 20px;
+  flex-direction: column;
+  top: 12%;
+  padding-top: 30px;
+  border-radius: 30px;
+  z-index: 99;
+  background-color: white;
+  -webkit-box-shadow: -2px 0px 33px -4px rgba(92, 87, 92, 1);
+  -moz-box-shadow: -2px 0px 33px -4px rgba(92, 87, 92, 1);
+  box-shadow: -2px 0px 33px -4px rgba(92, 87, 92, 1);
+}
+.description__section h4 {
+  font-size: 2vw;
+  font-family: asik;
+  letter-spacing: 2px;
+}
+
+.description__section h6 {
+  font-family: medium;
+  font-size: 0.6vw;
+  margin-top: 10px;
+  letter-spacing: 10px;
+  color: #ff0404;
+}
+
+.description__section p {
+  font-family: abc;
+  font-weight: bolder;
+  width: 17vw;
+  margin-top: 5vh;
+}
+.tech__section {
+  position: absolute;
+  width: 44vw;
+  height: 35vh;
+  left: 3%;
+  bottom: 12%;
+  border-radius: 30px;
+  background-color: aqua;
+  z-index: 99;
+  background-color: white;
+  -webkit-box-shadow: -2px 0px 33px -4px rgba(92, 87, 92, 1);
+  -moz-box-shadow: -2px 0px 33px -4px rgba(92, 87, 92, 1);
+  box-shadow: -2px 0px 33px -4px rgba(92, 87, 92, 1);
 }

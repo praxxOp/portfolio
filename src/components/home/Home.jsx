@@ -9,6 +9,7 @@ const Home = () => {
     <>
       <div className="main__home">
         <div className="home__left">
+          
           <div className="circle__content">
             <div className="home__circle__group">
               {circleArray.map((index) => (

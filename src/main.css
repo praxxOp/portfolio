@@ -10,6 +10,10 @@
   font-family: abc;
   src: url(./fonts/abcfavorit-book.ttf);
 }
+@font-face {
+  font-family: longbold;
+  src: url(./fonts/longbold.ttf);
+}
 * {
   margin: 0%;
   padding: 0%;
