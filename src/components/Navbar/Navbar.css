@@ -44,10 +44,16 @@
 
 .Navbar__content h4 {
   letter-spacing: 0.15vw;
+  width: 20vh;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s linear;
 }
 
 .Navbar__content h4:hover {
   color: #e63323;
-  transition: color 0.2s ease-in-out;
-  cursor: pointer;
+  transition: 0.3s linear;
+  scale: 1.1;
 }
