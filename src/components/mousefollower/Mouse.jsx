@@ -20,10 +20,9 @@ const Mouse = () => {
   return (
     <motion.div
       animate={{
-        x: position.x ,
-        y: position.y ,
+        x: position.x,
+        y: position.y,
       }}
-      
       className="cursor"
     ></motion.div>
   );
