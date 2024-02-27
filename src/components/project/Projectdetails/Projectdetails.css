@@ -61,7 +61,7 @@
 }
 .tech__section {
   position: absolute;
-  width: 44vw;
+  width: 34vw;
   height: 35vh;
   left: 3%;
   bottom: 12%;
@@ -73,8 +73,12 @@
   -moz-box-shadow: -2px 0px 33px -4px rgba(92, 87, 92, 1);
   box-shadow: -2px 0px 33px -4px rgba(92, 87, 92, 1);
 }
-.tech__section h4{
-  font-size: 1.5vw;
-  font-family: abc;
-  font-weight: bolder;
+.stack__tech {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
+

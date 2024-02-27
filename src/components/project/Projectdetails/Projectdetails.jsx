@@ -52,8 +52,11 @@ const Projectdetails = ({ name, description, projectImg, headingcolor }) => {
           className="tech__section"
         >
           <div className="stack__tech">
-            <div className="stack__tech__circle"></div>
-            <div className="stack__tech__name"></div>
+            <div className="stack__tech__name">
+              <h3>NEXT.JS</h3>
+              <h3>FRAMER MOTION</h3>
+              <h3>CSS</h3>
+            </div>
           </div>
         </motion.div>
       </div>
