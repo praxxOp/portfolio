@@ -1,10 +1,20 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Projectdetails.css";
 import { MdArrowOutward } from "react-icons/md";
 import { motion } from "framer-motion";
+import Mouse from "./../../mousefollower/Mouse";
 const Projectdetails = ({ name, description, projectImg, headingcolor }) => {
+  const [MouseSize, setMouseSize] = useState(false);
+  const handleMouseHover = () => {
+    setMouseSize(true);
+  };
+
+  const handleMouseLeave = () => {
+    setMouseSize(false);
+  };
   return (
     <>
+      < Mouse  MouseSize={MouseSize}/>
       <div className="main__project__page">
         <motion.div
           initial={{
@@ -33,7 +43,12 @@ const Projectdetails = ({ name, description, projectImg, headingcolor }) => {
             className="description__arrow"
           />
         </motion.div>
-        <img src={projectImg} alt="Image of my project" />
+        <motion.img
+          onMouseEnter={handleMouseHover}
+          onMouseLeave={handleMouseLeave}
+          src={projectImg}
+          alt="Image of my project"
+        />
         <div className="bottom__description__section">
           <p>
             Designed and developed by me to ensure that you can visit my Figma

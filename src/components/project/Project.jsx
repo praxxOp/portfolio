@@ -3,6 +3,7 @@ import "./Project.css";
 import Projectdetails from "./Projectdetails/Projectdetails";
 import port1 from "../../assets/port1.jpg";
 import port3 from "../../assets/port3.jpg";
+
 const Project = () => {
   const details = [
     {
@@ -23,6 +24,7 @@ const Project = () => {
 
   return (
     <div className="main__project">
+      
       <div className="project__heading">
         <h1>
           PRO <br /> <span>JECTS</span>

@@ -8,4 +8,7 @@
     z-index: 9999;
     border-radius: 50%;
     position: fixed;
+    display: flex;
+    align-items: center;  
+    justify-content: center;
 }
