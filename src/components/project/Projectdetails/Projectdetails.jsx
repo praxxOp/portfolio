@@ -30,35 +30,30 @@ const Projectdetails = ({ name, description, projectImg, headingcolor }) => {
           <MdArrowOutward
             size={50}
             style={{ marginLeft: "17vw", color: headingcolor }}
+            className="description__arrow"
           />
         </motion.div>
         <img src={projectImg} alt="Image of my project" />
-        <motion.div
-          initial={{
-            opacity: 0,
-            x: "-150px",
-          }}
-          whileInView={{
-            opacity: 1,
-            x: "0",
-          }}
-          transition={{
-            duration: 1,
-          }}
-          viewport={{
-            margin: "-200px ",
-            once: true,
-          }}
-          className="tech__section"
-        >
-          <div className="stack__tech">
-            <div className="stack__tech__name">
-              <h3>NEXT.JS</h3>
-              <h3>FRAMER MOTION</h3>
-              <h3>CSS</h3>
+        <div className="bottom__description__section">
+          <p>
+            Designed and developed by me to ensure that you can visit my Figma
+            and GitHub.
+          </p>
+          <div className="right__bottom">
+            <div className="bottom__buttons">
+              <h2>
+                GitHub <MdArrowOutward size={20} />
+                <hr />
+              </h2>
+            </div>
+            <div className="bottom__buttons">
+              <h2>
+                Figma <MdArrowOutward size={20} />
+                <hr />
+              </h2>
             </div>
           </div>
-        </motion.div>
+        </div>
       </div>
     </>
   );

@@ -14,6 +14,10 @@
   font-family: longbold;
   src: url(./fonts/longbold.ttf);
 }
+@font-face {
+  font-family: neuo;
+  src: url(./fonts/neuo.otf);
+}
 * {
   margin: 0%;
   padding: 0%;

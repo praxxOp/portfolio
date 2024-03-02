@@ -3,9 +3,10 @@
   width: 100%;
   display: flex;
   padding-top: 15vw;
-  justify-content: center;
+  align-items: center;
   position: relative;
   overflow: hidden;
+  flex-direction: column;
 }
 
 .main__project__page img {
@@ -39,6 +40,15 @@
   -moz-box-shadow: -2px 0px 33px -4px rgba(92, 87, 92, 1);
   box-shadow: -2px 0px 33px -4px rgba(92, 87, 92, 1);
 }
+
+.description__section:not(:hover) .description__arrow {
+  scale: 1;
+  transition: 0.5s ease-in-out;
+}
+.description__section:hover .description__arrow {
+  scale: 1.18;
+  transition: 0.5s ease-in-out;
+}
 .description__section h4 {
   font-size: 2vw;
   font-family: asik;
@@ -59,26 +69,39 @@
   width: 17vw;
   margin-top: 5vh;
 }
-.tech__section {
-  position: absolute;
-  width: 34vw;
-  height: 35vh;
-  left: 3%;
-  bottom: 12%;
-  border-radius: 30px;
-  background-color: aqua;
-  z-index: 99;
-  background-color: white;
-  -webkit-box-shadow: -2px 0px 33px -4px rgba(92, 87, 92, 1);
-  -moz-box-shadow: -2px 0px 33px -4px rgba(92, 87, 92, 1);
-  box-shadow: -2px 0px 33px -4px rgba(92, 87, 92, 1);
-}
-.stack__tech {
-  display: flex;
-  height: 100%;
-  width: 100%;
+
+.bottom__description__section {
+  width: 88%;
+  height: 9vh;
+  font-weight: bolder;
+  text-transform: capitalize;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  font-family: neuo;
+  font-size: 1.1vw;
+  justify-content: space-between;
+}
+.right__bottom {
+  margin-top: 8vh;
+  height: 9vh;
+  width: 12vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+.bottom__buttons {
+  color: #141511;
+  border-radius: 50px;
+  font-size: .9vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
+.bottom__buttons:hover{
+  scale: 1.1;
+  color: #ff0404;
+  transition: .2s linear;
+}
