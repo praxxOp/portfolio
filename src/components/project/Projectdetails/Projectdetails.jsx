@@ -5,16 +5,10 @@ import { motion } from "framer-motion";
 import Mouse from "./../../mousefollower/Mouse";
 const Projectdetails = ({ name, description, projectImg, headingcolor }) => {
   const [MouseSize, setMouseSize] = useState(false);
-  const handleMouseHover = () => {
-    setMouseSize(true);
-  };
-
-  const handleMouseLeave = () => {
-    setMouseSize(false);
-  };
+  
   return (
     <>
-      < Mouse  MouseSize={MouseSize}/>
+     
       <div className="main__project__page">
         <motion.div
           initial={{
@@ -44,11 +38,16 @@ const Projectdetails = ({ name, description, projectImg, headingcolor }) => {
           />
         </motion.div>
         <motion.img
-          onMouseEnter={handleMouseHover}
-          onMouseLeave={handleMouseLeave}
+          whileHover={() => {
+            setMouseSize(true);
+          }}
+          onHoverEnd={() => {
+            setMouseSize(false);
+          }}
           src={projectImg}
           alt="Image of my project"
         />
+         < Mouse  MouseSize={MouseSize}/>
         <div className="bottom__description__section">
           <p>
             Designed and developed by me to ensure that you can visit my Figma

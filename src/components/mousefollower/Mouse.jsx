@@ -22,10 +22,13 @@ const Mouse = ({ MouseSize }) => {
       animate={{
         x: position.x,
         y: position.y,
-        scale: MouseSize ? 10: 1
+        scale: MouseSize ? 9 : 1,
       }}
+     
       className="cursor"
-    ></motion.div>
+    >
+      <h6>{MouseSize ? "view project" : ""}</h6>
+    </motion.div>
   );
 };
 

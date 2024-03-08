@@ -26,6 +26,7 @@ const Project = () => {
     <div className="main__project">
       
       <div className="project__heading">
+        
         <h1>
           PRO <br /> <span>JECTS</span>
         </h1>

@@ -6,7 +6,10 @@
     padding-top: 6vw ;
    
 }
-
+.project__heading{
+   
+    display: flex;
+}
 
 .main__project h1{
     font-family: asik;
