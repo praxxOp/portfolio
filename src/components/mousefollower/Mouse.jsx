@@ -3,18 +3,25 @@ import "./Mouse.css";
 import { motion } from "framer-motion";
 
 const Mouse = ({ MouseSize }) => {
-  const [position, setposition] = useState({
+  const [position, setPosition] = useState({
     x: null,
     y: null,
   });
 
   useEffect(() => {
-    window.addEventListener("mousemove", (e) => {
-      setposition({
+    const handleMouseMove = (e) => {
+      setPosition({
         x: e.clientX,
         y: e.clientY,
       });
-    });
+    };
+
+    window.addEventListener("mousemove", handleMouseMove);
+
+  
+    return () => {
+      window.removeEventListener("mousemove", handleMouseMove);
+    };
   }, []);
 
   return (
@@ -24,7 +31,6 @@ const Mouse = ({ MouseSize }) => {
         y: position.y,
         scale: MouseSize ? 9 : 1,
       }}
-     
       className="cursor"
     >
       <h6>{MouseSize ? "view project" : ""}</h6>
