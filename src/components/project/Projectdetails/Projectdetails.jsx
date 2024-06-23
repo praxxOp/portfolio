@@ -5,10 +5,9 @@ import { motion } from "framer-motion";
 import Mouse from "./../../mousefollower/Mouse";
 const Projectdetails = ({ name, description, projectImg, headingcolor }) => {
   const [MouseSize, setMouseSize] = useState(false);
-  
+
   return (
     <>
-     
       <div className="main__project__page">
         <motion.div
           initial={{
@@ -47,7 +46,7 @@ const Projectdetails = ({ name, description, projectImg, headingcolor }) => {
           src={projectImg}
           alt="Image of my project"
         />
-         < Mouse  MouseSize={MouseSize}/>
+        <Mouse MouseSize={MouseSize} />
         <div className="bottom__description__section">
           <p>
             Designed and developed by me to ensure that you can visit my Figma

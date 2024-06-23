@@ -2,11 +2,11 @@
   min-height: 60vh;
   width: 100%;
   display: flex;
-  color: #7e7f7b;
+  color: #141511;
 }
 
 .home__left {
-  width: 50%;
+  width: 35%;
   min-height: 100%;
   display: flex;
   flex-direction: column;
@@ -41,18 +41,18 @@
   color: #ff0404;
 }
 .home__right {
-  width: 50%;
+  width: 65%;
   min-height: 100%;
   display: flex;
   flex-direction: column;
   padding-top: 20px;
   justify-content: center;
-  align-items: center;
+  
 }
 .main__home p {
   width: 30vw;
   height: 30vh;
-  font-size: 1vw;
-  font-family: abc;
+  font-size: 1.1vw;
+  font-family: neuo;
   font-weight: bolder;
 }

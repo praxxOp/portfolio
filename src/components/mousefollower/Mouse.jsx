@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./Mouse.css";
 import { motion } from "framer-motion";
+import { GoArrowUpRight } from "react-icons/go";
 
 const Mouse = ({ MouseSize }) => {
   const [position, setPosition] = useState({
@@ -18,7 +19,6 @@ const Mouse = ({ MouseSize }) => {
 
     window.addEventListener("mousemove", handleMouseMove);
 
-  
     return () => {
       window.removeEventListener("mousemove", handleMouseMove);
     };
@@ -29,11 +29,11 @@ const Mouse = ({ MouseSize }) => {
       animate={{
         x: position.x,
         y: position.y,
-        scale: MouseSize ? 9 : 1,
+        scale: MouseSize ? 5 : 1,
       }}
       className="cursor"
     >
-      <h6>{MouseSize ? "view project" : ""}</h6>
+      {MouseSize ? <GoArrowUpRight size={5} /> : ""}
     </motion.div>
   );
 };

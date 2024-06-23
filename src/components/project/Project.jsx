@@ -23,13 +23,16 @@ const Project = () => {
   ];
 
   return (
-    <div className="main__project">
-      
+    <div className="main__project" id="projects">
       <div className="project__heading">
-        
-        <h1>
-          PRO <br /> <span>JECTS</span>
-        </h1>
+        <h4 className="project__heading__left">
+          SOME <br /> SELECTED
+        </h4>
+        <h1>.PROJECTS</h1>
+        <h4 className="project__heading__up">
+          WEB <br /> DESIGN
+        </h4>
+        <h4 className="project__heading__down">FRONT:END</h4>
       </div>
       {details.map((item, index) => (
         <Projectdetails

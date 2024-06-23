@@ -1,6 +1,6 @@
 .skillsection {
   height: 6vh;
-  background-color: #141511;
+  background-color: #0a2e34;
   position: fixed;
   bottom: 0%;
   border-radius: 10px 10px 0 0;
@@ -23,9 +23,9 @@
 .skillsection__heading h5 {
   font-family: medium;
   font-size: 0.75vw;
-  color: rgb(253, 249, 249);
+  color: #6ca6c1;
   letter-spacing: 2.5px;
 }
 .skillsection__heading h5:hover {
-  color: orangered;
+  color: antiquewhite;
 }
