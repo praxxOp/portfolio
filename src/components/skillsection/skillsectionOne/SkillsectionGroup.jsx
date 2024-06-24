@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const SkillsectionOne = () => {
   const DevlopmentSkills = ["Next JS", "React JS", "Git/Github", "Html/CSS"];
-  const AnimationSkills = ["FRAMER MOTION", "GSAP", "FIGMA", "TAILWINDCSS"];
+  const AnimationSkills = ["Framer motion", "Gsap", "Figma", "TailwindCSS"];
   return (
     <div className="skillSection__container">
       <div className="skillsection__group">
@@ -21,6 +21,7 @@ const SkillsectionOne = () => {
               }}
               transition={{
                 duration: 1,
+                type: "spring"
               }}
             >
               FRONTEND
@@ -74,7 +75,27 @@ const SkillsectionOne = () => {
             <div className="skillsectionOne__down__right">
               <div className="skillsectionOne__down__right__animation">
                 <h1>Animation & Design Skills.</h1>
-                <div className="skillsectionOne__down__right__animation__group"></div>
+                <div className="skillsectionOne__down__right__animation__group">
+                  {
+                    AnimationSkills.map((item, index) => {
+                      return (
+                        <motion.div
+                          whileInView={{
+                            width: index === 0 ? "10vw" : `${(index + 1) * 10}vw`,
+                          }}
+                          transition={{
+                            type: "spring",
+                            duration: 2,
+                          }}
+                          className="skill__name"
+                          id={index}
+                        >
+                         {item}  
+                        </motion.div>
+                      );
+                    })
+                  }
+                </div>
               </div>
             </div>
           </div>

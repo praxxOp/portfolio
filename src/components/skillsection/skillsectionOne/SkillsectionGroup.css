@@ -131,6 +131,8 @@
 .skillsectionOne__down__right__animation {
   height: 90%;
   width: 95%;
+
+
   background-color: antiquewhite;
   border-radius: 30px;
   padding-left: 20px;
@@ -143,8 +145,12 @@
   border-bottom: 2px solid #0a2e34;
 }
 .skillsectionOne__down__right__animation__group {
-  width: 90%;
+  width: 98%;
   height: 85%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-evenly;
+  flex-direction: column;
 }
 .skillsectionTwo {
   height: 100%;
