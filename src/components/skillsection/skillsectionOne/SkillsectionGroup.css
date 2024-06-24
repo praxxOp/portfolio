@@ -80,6 +80,21 @@
 .skillsectionOne__down__left__development__group {
   width: 90%;
   height: 85%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.skill__name {
+  width: 10vw;
+  height: 8vh;
+  background-color: #0a2e34;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: neuo;
+  font-weight: 800;
+  border-radius: 10px;
+  color: antiquewhite;
 }
 
 .skillsectionOne__down__circle {

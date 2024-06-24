@@ -32,7 +32,7 @@ const Project = () => {
         <h4 className="project__heading__up">
           WEB <br /> DESIGN
         </h4>
-        <h4 className="project__heading__down">FRONT:END</h4>
+        <h4 className="project__heading__down">FRONTEND</h4>
       </div>
       {details.map((item, index) => (
         <Projectdetails
