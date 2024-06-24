@@ -7,6 +7,7 @@ const ParagraphSection = () => {
     target: Element,
     offset: ["start 0.9", "start .5"],
   });
+
   return (
     <>
       <div className="main__paragraphSection">
