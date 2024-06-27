@@ -11,6 +11,7 @@ import Contact from "./components/contact/Contact";
 const App = () => {
   return (
     <>
+    
       <Skillsection />
       <Navbar />
       <Home />
