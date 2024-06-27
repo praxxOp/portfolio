@@ -1,4 +1,33 @@
-.main__about{
-    min-height: 100vh;
-    width: 100%;
+.main__about {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+}
+.left__About {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image__container {
+  width: 90%;
+  height: 90vh;
+  overflow: hidden;
+}
+
+.image__container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.right__about {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 15vw;
+  font-family: neuo;
+  font-size: 1.7vw;
 }

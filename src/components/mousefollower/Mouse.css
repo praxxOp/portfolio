@@ -13,4 +13,11 @@
   color: aliceblue;
   pointer-events: none;
   transition: transform 0.1s ease;
+  padding-left: 2.2px;
+}
+.cursor h1 {
+  font-size: 0.2vw;
+  font-family: neuo;
+  letter-spacing: 0;
+  line-height: 1.06;
 }
