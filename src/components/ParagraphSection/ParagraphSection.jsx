@@ -5,7 +5,7 @@ const ParagraphSection = () => {
   const Element = useRef(null);
   const { scrollYProgress } = useScroll({
     target: Element,
-    offset: ["start 0.9", "start .5"],
+    offset: ["0.4 0.9", "start .5"],
   });
 
   return (

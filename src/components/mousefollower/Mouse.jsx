@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./Mouse.css";
 import { motion } from "framer-motion";
-import { GoArrowUpRight } from "react-icons/go";
 
 const Mouse = ({ MouseSize }) => {
   const [position, setPosition] = useState({
@@ -12,8 +11,8 @@ const Mouse = ({ MouseSize }) => {
   useEffect(() => {
     const handleMouseMove = (e) => {
       setPosition({
-        x: e.clientX,
-        y: e.clientY,
+        x: e.clientX-1,
+        y: e.clientY-1,
       });
     };
 
