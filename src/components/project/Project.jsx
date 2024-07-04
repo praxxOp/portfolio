@@ -3,6 +3,7 @@ import "./Project.css";
 import Projectdetails from "./Projectdetails/Projectdetails";
 import port1 from "../../assets/port1.jpg";
 import port3 from "../../assets/port3.jpg";
+import { motion } from "framer-motion";
 
 const Project = () => {
   const details = [
@@ -28,7 +29,16 @@ const Project = () => {
         <h4 className="project__heading__left">
           SOME <br /> SELECTED
         </h4>
-        <h1>.PROJECTS</h1>
+        {/* <h1>.PROJECTS</h1> */}
+        {".PROJECTS".split("").map((item) => {
+          return <motion.h1 whileHover={{
+            scale: .9
+          }}
+          transition={{
+            duration: 1,
+            type : "spring"
+          }}>{item}</motion.h1>;
+        })}
         <h4 className="project__heading__up">
           WEB <br /> DESIGN
         </h4>

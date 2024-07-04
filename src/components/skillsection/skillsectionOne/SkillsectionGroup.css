@@ -26,7 +26,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border-radius: 40px;
   border: 1px solid #6ca6c1;
   overflow: hidden;
 }
@@ -67,7 +66,6 @@
   height: 90%;
   width: 95%;
   background-color: antiquewhite;
-  border-radius: 30px;
   padding-left: 20px;
   padding-top: 15px;
 }
@@ -93,7 +91,6 @@
   justify-content: center;
   font-family: neuo;
   font-weight: 800;
-  border-radius: 10px;
   color: antiquewhite;
 }
 
@@ -131,10 +128,7 @@
 .skillsectionOne__down__right__animation {
   height: 90%;
   width: 95%;
-
-
   background-color: antiquewhite;
-  border-radius: 30px;
   padding-left: 20px;
   padding-top: 15px;
 }

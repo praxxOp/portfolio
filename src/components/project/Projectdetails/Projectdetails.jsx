@@ -27,7 +27,7 @@ const Projectdetails = ({ name, description, projectImg, headingcolor }) => {
           }}
           className="description__section"
         >
-          <h4 style={{ color: headingcolor }}>{name}</h4>
+          
           <h6>{name}</h6>
           <p style={{ color: headingcolor }}> {description}</p>
           <MdArrowOutward
@@ -68,6 +68,7 @@ const Projectdetails = ({ name, description, projectImg, headingcolor }) => {
           </div>
         </div>
       </div>
+      <hr />
     </>
   );
 };
