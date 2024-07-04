@@ -30,3 +30,8 @@ body {
   width: 100%;
   background-color: #ecede9;
 }
+
+::selection {
+  background-color: salmon;
+  color: rgb(58, 14, 7);
+}

@@ -14,7 +14,6 @@
 .animated__headline {
   width: 100%;
   height: 16vh;
-  overflow: hidden;
 }
 .animated__headline h1 {
   font-size: 8.5vw;
@@ -56,4 +55,26 @@
   color: #e63323;
   transition: 0.3s linear;
   scale: 1.1;
+}
+
+@media (max-width: 600px) {
+  .main__navbar {
+    height: 35vh;
+    width: 100%;
+  }
+  .animated__headline {
+    width: 100%;
+    height: 8vh;
+  }
+  .navbar__heading h6 {
+    margin-top: 0px;
+  }
+  .Navbar__content {
+    font-size: 1.3vw;
+  }
+  .Navbar__content h4:hover {
+    color: inherit;
+    scale: 1;
+    transition: none;
+  }
 }
