@@ -14,6 +14,7 @@
 .animated__headline {
   width: 100%;
   height: 16vh;
+  overflow: hidden;
 }
 .animated__headline h1 {
   font-size: 8.5vw;
