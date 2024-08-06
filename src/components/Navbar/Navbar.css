@@ -28,6 +28,7 @@
   font-size: 0.6vw;
   color: #ff0404;
   letter-spacing: 4.2vw;
+
 }
 
 .Navbar__content {
@@ -42,22 +43,22 @@
   padding: 0 20px;
 }
 
-.Navbar__content h4 {
+.Navbar__content a{
   letter-spacing: 0.15vw;
   width: 20vh;
   height: 10vh;
   display: flex;
   align-items: center;
   justify-content: center;
+  text-decoration: none;
   transition: 0.3s linear;
+  color: #141511;
 }
 
-.Navbar__content h4:hover {
+.Navbar__content a:hover {
   color: #e63323;
   transition: 0.3s linear;
   scale: 1.1;
 }
 
-@media (max-width: 600px) {
 
-}

@@ -8,7 +8,7 @@ import { FaGithub } from "react-icons/fa6";
 const Contact = () => {
   return (
     <>
-    <div className="main__footer">
+    <div className="main__footer" id="Contact">
       <div className="contact__description__section">
         <h3>shelke.prathamesh0012@gmail.com</h3>
         <p>

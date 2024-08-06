@@ -24,7 +24,7 @@ const Project = () => {
   ];
 
   return (
-    <div className="main__project" id="projects">
+    <div className="main__project" id="Project">
       <div className="project__heading">
         <h4 className="project__heading__left">
           SOME <br /> SELECTED
