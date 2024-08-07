@@ -29,7 +29,7 @@ const Project = () => {
         <h4 className="project__heading__left">
           SOME <br /> SELECTED
         </h4>
-        {/* <h1>.PROJECTS</h1> */}
+        
         {".PROJECTS".split("").map((item) => {
           return <motion.h1 whileHover={{
             scale: .9

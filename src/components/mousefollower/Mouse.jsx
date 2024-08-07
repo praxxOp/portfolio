@@ -28,7 +28,7 @@ const Mouse = ({ MouseSize }) => {
       animate={{
         x: position.x,
         y: position.y,
-        scale: MouseSize ? 7 : 1,
+        scale: MouseSize ? 6 : 1,
       }}
       className="cursor"
     >
