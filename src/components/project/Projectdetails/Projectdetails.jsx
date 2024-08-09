@@ -3,7 +3,16 @@ import "./Projectdetails.css";
 import { MdArrowOutward } from "react-icons/md";
 import { motion } from "framer-motion";
 import Mouse from "./../../mousefollower/Mouse";
-const Projectdetails = ({ name, description, projectImg, headingcolor }) => {
+
+const Projectdetails = ({
+  name,
+  description,
+  projectImg,
+  headingcolor,
+  Id,
+  GithubLink,
+  FigmaLink
+}) => {
   const [MouseSize, setMouseSize] = useState(false);
 
   return (
@@ -27,7 +36,6 @@ const Projectdetails = ({ name, description, projectImg, headingcolor }) => {
           }}
           className="description__section"
         >
-          
           <h6>{name}</h6>
           <p style={{ color: headingcolor }}> {description}</p>
           <MdArrowOutward
@@ -54,16 +62,16 @@ const Projectdetails = ({ name, description, projectImg, headingcolor }) => {
           </p>
           <div className="right__bottom">
             <div className="bottom__buttons">
-              <h2>
+              <a href={GithubLink} target="_blank" rel="noopener noreferrer">
                 GitHub <MdArrowOutward size={20} />
-                <hr />
-              </h2>
+              </a>
+              <hr />
             </div>
             <div className="bottom__buttons">
-              <h2>
+              <a href={FigmaLink} target="_blank" rel="noopener noreferrer">
                 Figma <MdArrowOutward size={20} />
-                <hr />
-              </h2>
+              </a>
+              <hr />
             </div>
           </div>
         </div>
@@ -74,3 +82,4 @@ const Projectdetails = ({ name, description, projectImg, headingcolor }) => {
 };
 
 export default Projectdetails;
+ 

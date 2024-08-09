@@ -85,16 +85,17 @@
   justify-content: space-between;
   
 }
-.bottom__buttons {
+.bottom__buttons a {
   color: #141511;
   border-radius: 50px;
-  font-size: .9vw;
+  font-size: 1.5vw;
   display: flex;
   align-items: center;
   justify-content: center;
+  text-decoration: none;
 }
 
-.bottom__buttons:hover{
+.bottom__buttons a:hover{
   scale: 1.1;
   color: #ff0404;
   transition: .2s linear;
