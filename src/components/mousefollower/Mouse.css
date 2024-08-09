@@ -1,7 +1,10 @@
 .cursor {
-  width: 2vh;
-  height: 2vh;
-  background-color: #ff0404;
+  width: 20px;
+  height: 20px;
+  background-image: url("../../assets/mouseimage.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   top: 0%;
   left: 0%;
   z-index: 999;
@@ -13,8 +16,8 @@
   color: aliceblue;
   pointer-events: none;
   transition: transform 0.1s ease;
-  
 }
+
 .cursor h1 {
   font-size: 2.5px;
   font-family: neuo;
