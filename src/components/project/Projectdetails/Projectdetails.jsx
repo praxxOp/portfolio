@@ -58,25 +58,26 @@ const Projectdetails = ({
         <div className="bottom__description__section">
           <p>
             Designed and developed by me to ensure that you can visit my Figma
-            and GitHub.
+            and GitHub. 
           </p>
+          
           <div className="right__bottom">
             <div className="bottom__buttons">
               <a href={GithubLink} target="_blank" rel="noopener noreferrer">
                 GitHub <MdArrowOutward size={20} />
               </a>
-              <hr />
+              
             </div>
             <div className="bottom__buttons">
               <a href={FigmaLink} target="_blank" rel="noopener noreferrer">
                 Figma <MdArrowOutward size={20} />
               </a>
-              <hr />
+             
             </div>
           </div>
         </div>
       </div>
-      <hr />
+      
     </>
   );
 };

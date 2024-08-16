@@ -14,9 +14,6 @@
   height: 73%; 
   z-index: 9;
   transition: 0.5s linear;
-  -webkit-box-shadow: -2px 0px 33px -4px rgba(92, 87, 92, 1);
-  -moz-box-shadow: -2px 0px 33px -4px rgba(92, 87, 92, 1);
-  box-shadow: -2px 0px 33px -4px rgba(92, 87, 92, 1);
 }
 .main__project__page img:hover {
   scale: 1.02;
@@ -74,6 +71,7 @@
   font-family: neuo;
   font-size: 1.1vw;
   justify-content: space-between;
+  color: #D3BB8A
 }
 .right__bottom {
   margin-top: 8vh;
@@ -86,7 +84,7 @@
   
 }
 .bottom__buttons a {
-  color: #141511;
+  color: #D3BB8A;
   border-radius: 50px;
   font-size: 1.5vw;
   display: flex;

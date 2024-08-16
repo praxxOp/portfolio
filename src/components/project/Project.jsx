@@ -43,6 +43,7 @@ const Project = () => {
             <motion.h1
               whileHover={{
                 scale: 0.9,
+                color :"#1D2531"
               }}
               transition={{
                 duration: 1,

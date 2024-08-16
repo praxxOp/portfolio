@@ -3,12 +3,14 @@
   width: 100%;
   border-radius: 30px;
   padding-top: 6vw;
+  background-color: #18202B;
 }
 .project__heading {
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
+  color: #D3BB8A
 }
 .project__heading__left {
   position: absolute;
@@ -18,7 +20,7 @@
   font-size: 0.6vw;
   line-height: 110%;
   letter-spacing: 3px;
-  color: #ff0404;
+  color: #D3BB8A
 }
 .project__heading__up {
   position: absolute;
@@ -28,7 +30,7 @@
   font-size: 0.6vw;
   line-height: 110%;
   letter-spacing: 3px;
-  color: #ff0404;
+  color: #D3BB8A
 }
 .project__heading__down {
   position: absolute;
@@ -37,7 +39,7 @@
   font-family: medium;
   font-size: 0.6vw;
   letter-spacing: 3px;
-  color: #ff0404;
+  color: #D3BB8A
 }
 
 .main__project h1 {
