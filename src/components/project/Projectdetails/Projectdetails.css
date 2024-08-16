@@ -29,6 +29,7 @@
   flex-direction: column;
   top: 12%;
   padding-top: 30px;
+  border-radius: 20px;
   z-index: 99;
   background-color: #d6dbe4;
   -webkit-box-shadow: -2px 0px 33px -4px rgba(92, 87, 92, 1);
