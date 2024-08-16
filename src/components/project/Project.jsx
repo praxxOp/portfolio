@@ -46,7 +46,7 @@ const Project = () => {
                 color :"#1D2531"
               }}
               transition={{
-                duration: 1,
+                duration: .5,
                 type: "spring",
               }}
             >

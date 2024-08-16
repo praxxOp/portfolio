@@ -37,10 +37,10 @@ const Projectdetails = ({
           className="description__section"
         >
           <h6>{name}</h6>
-          <p style={{ color: headingcolor }}> {description}</p>
+          <p> {description}</p>
           <MdArrowOutward
             size={50}
-            style={{ marginLeft: "17vw", color: headingcolor }}
+            style={{ marginLeft: "17vw" }}
             className="description__arrow"
           />
         </motion.div>
