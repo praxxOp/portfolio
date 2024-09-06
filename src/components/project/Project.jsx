@@ -2,18 +2,29 @@ import React from "react";
 import "./Project.css";
 import Projectdetails from "./Projectdetails/Projectdetails";
 import port1 from "../../assets/port1.jpg";
-import port3 from "../../assets/port3.jpg";
+import port2 from "../../assets/port2.jpg";
+import port3 from "../../assets/port3.png";
 import { motion } from "framer-motion";
 
 const Project = () => {
   const details = [
     {
+      projectName: "ATHLIC",
+      projectDescription:
+        "I created this website to showcase my animation skills with smooth, engaging visuals. Explore how I use animation to create an immersive experience.",
+      projectImg: port3,
+      Id: 3,
+      projectGithub: "https://github.com/praxxOp/Athlic",
+      projectFigma:
+        "https://www.figma.com/community/file/1336244596719220255/real-estate",
+    },
+
+    {
       projectName: "REALESTATE",
       projectDescription:
         "The focal point of this website is to spotlight my proficiency in API integration and effective data management.",
-      projectImg: port1,
-      headingcolor: "#362827",
-      Id: 1,
+      projectImg: port2,
+      Id: 2,
       projectGithub: "https://github.com/praxxOp/realestate",
       projectFigma:
         "https://www.figma.com/community/file/1336244596719220255/real-estate",
@@ -22,9 +33,8 @@ const Project = () => {
       projectName: "WEB3",
       projectDescription:
         "This website showcases my proficiency in animation and design",
-      projectImg: port3,
-      headingcolor: "#005f2a",
-      Id: 2,
+      projectImg: port1,
+      Id: 1,
       projectGithub: "https://github.com/praxxOp/web0.3",
       projectFigma:
         "https://www.figma.com/community/file/1299016984863367615/web3-website",
@@ -43,10 +53,10 @@ const Project = () => {
             <motion.h1
               whileHover={{
                 scale: 0.9,
-                color :"#1D2531"
+                color: "#1D2531",
               }}
               transition={{
-                duration: .5,
+                duration: 0.5,
                 type: "spring",
               }}
             >
@@ -65,7 +75,6 @@ const Project = () => {
           name={item.projectName}
           description={item.projectDescription}
           projectImg={item.projectImg}
-          headingcolor={item.headingcolor}
           Id={item.Id}
           GithubLink={item.projectGithub}
           FigmaLink={item.projectFigma}

@@ -8,7 +8,6 @@ const Projectdetails = ({
   name,
   description,
   projectImg,
-  headingcolor,
   Id,
   GithubLink,
   FigmaLink
