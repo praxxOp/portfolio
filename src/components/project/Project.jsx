@@ -14,6 +14,7 @@ const Project = () => {
         "I created this website to showcase my animation skills with smooth, engaging visuals. Explore how I use animation to create an immersive experience.",
       projectImg: port3,
       Id: 3,
+      projectLink : "https://athlic.netlify.app/",
       projectGithub: "https://github.com/praxxOp/Athlic",
       projectFigma:
         "https://www.figma.com/community/file/1336244596719220255/real-estate",
@@ -25,6 +26,7 @@ const Project = () => {
         "The focal point of this website is to spotlight my proficiency in API integration and effective data management.",
       projectImg: port2,
       Id: 2,
+      projectLink : "https://realestate-demoo.netlify.app/",
       projectGithub: "https://github.com/praxxOp/realestate",
       projectFigma:
         "https://www.figma.com/community/file/1336244596719220255/real-estate",
@@ -35,6 +37,7 @@ const Project = () => {
         "This website showcases my proficiency in animation and design",
       projectImg: port1,
       Id: 1,
+      projectLink : "https://web03.netlify.app/",
       projectGithub: "https://github.com/praxxOp/web0.3",
       projectFigma:
         "https://www.figma.com/community/file/1299016984863367615/web3-website",
@@ -76,6 +79,7 @@ const Project = () => {
           description={item.projectDescription}
           projectImg={item.projectImg}
           Id={item.Id}
+          LiveLink = {item.projectLink}
           GithubLink={item.projectGithub}
           FigmaLink={item.projectFigma}
         />

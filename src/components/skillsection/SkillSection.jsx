@@ -15,7 +15,6 @@ const Skillsection = () => {
         <div onClick={openSection} className="skillsection__heading">
           <h5>SKILLS</h5>
         </div>
-        
         <SkillsectionGroup/>
       </div>
     </>

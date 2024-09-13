@@ -3,44 +3,46 @@ import "./Projectdetails.css";
 import { MdArrowOutward } from "react-icons/md";
 import { motion } from "framer-motion";
 
-
 const Projectdetails = ({
   name,
   description,
   projectImg,
   Id,
+  LiveLink,
   GithubLink,
   FigmaLink,
 }) => {
   return (
     <>
       <div className="main__project__page">
-        <motion.div
-          initial={{
-            opacity: 0,
-            x: "150px",
-          }}
-          whileInView={{
-            opacity: 1,
-            x: "0",
-          }}
-          transition={{
-            duration: 1,
-          }}
-          viewport={{
-            margin: "-200px ",
-            once: true,
-          }}
-          className="description__section"
-        >
-          <h6>{name}</h6>
-          <p> {description}</p>
-          <MdArrowOutward
-            size={50}
-            style={{ marginLeft: "17vw" }}
-            className="description__arrow"
-          />
-        </motion.div>
+        <a href={LiveLink} target="_blank" rel="noopener noreferrer">
+          <motion.div
+            initial={{
+              opacity: 0,
+              x: "150px",
+            }}
+            whileInView={{
+              opacity: 1,
+              x: "0",
+            }}
+            transition={{
+              duration: 1,
+            }}
+            viewport={{
+              margin: "-200px ",
+              once: true,
+            }}
+            className="description__section"
+          >
+            <h6>{name}</h6>
+            <p> {description}</p>
+            <MdArrowOutward
+              size={50}
+              style={{ marginLeft: "17vw" }}
+              className="description__arrow"
+            />
+          </motion.div>
+        </a>
         <motion.img src={projectImg} alt="Image of my project" />
 
         <div className="bottom__description__section">
