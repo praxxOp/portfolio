@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./Mouse.css";
 import { motion } from "framer-motion";
 
-const Mouse = ({ MouseSize }) => {
+const Mouse = () => {
   const [position, setPosition] = useState({
     x: null,
     y: null,
@@ -28,11 +28,10 @@ const Mouse = ({ MouseSize }) => {
       animate={{
         x: position.x,
         y: position.y,
-        scale: MouseSize ? 7 : 1,
+      
       }}
       className="cursor"
     >
-      {MouseSize ? <h1>View Project.</h1> : ""}
     </motion.div>
   );
 };

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Projectdetails.css";
 import { MdArrowOutward } from "react-icons/md";
 import { motion } from "framer-motion";
-import Mouse from "./../../mousefollower/Mouse";
+
 
 const Projectdetails = ({
   name,
@@ -10,10 +10,8 @@ const Projectdetails = ({
   projectImg,
   Id,
   GithubLink,
-  FigmaLink
+  FigmaLink,
 }) => {
-  const [MouseSize, setMouseSize] = useState(false);
-
   return (
     <>
       <div className="main__project__page">
@@ -43,43 +41,30 @@ const Projectdetails = ({
             className="description__arrow"
           />
         </motion.div>
-        <motion.img
-          whileHover={() => {
-            setMouseSize(true);
-          }}
-          onHoverEnd={() => {
-            setMouseSize(false);
-          }}
-          src={projectImg}
-          alt="Image of my project"
-        />
-        <Mouse MouseSize={MouseSize} />
+        <motion.img src={projectImg} alt="Image of my project" />
+
         <div className="bottom__description__section">
           <p>
             Designed and developed by me to ensure that you can visit my Figma
-            and GitHub. 
+            and GitHub.
           </p>
-          
+
           <div className="right__bottom">
             <div className="bottom__buttons">
               <a href={GithubLink} target="_blank" rel="noopener noreferrer">
                 GitHub <MdArrowOutward size={20} />
               </a>
-              
             </div>
             <div className="bottom__buttons">
               <a href={FigmaLink} target="_blank" rel="noopener noreferrer">
                 Figma <MdArrowOutward size={20} />
               </a>
-             
             </div>
           </div>
         </div>
       </div>
-      
     </>
   );
 };
 
 export default Projectdetails;
- 

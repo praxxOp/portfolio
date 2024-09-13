@@ -8,17 +8,17 @@ import ParagraphSection from "./components/ParagraphSection/ParagraphSection";
 import About from "./components/About/About";
 import Contact from "./components/contact/Contact";
 
+
 const App = () => {
   return (
     <>
-    
       <Skillsection />
       <Navbar />
       <Home />
       <Project />
-      <ParagraphSection/>
-      <About/>
-      <Contact/>
+      <ParagraphSection />
+      <About />
+      <Contact />
     </>
   );
 };
