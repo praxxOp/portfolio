@@ -7,7 +7,7 @@ import "./app.css";
 import ParagraphSection from "./components/ParagraphSection/ParagraphSection";
 import About from "./components/About/About";
 import Contact from "./components/contact/Contact";
-
+import { ReactLenis, useLenis } from "lenis/react";
 
 const App = () => {
   return (
